@@ -20,9 +20,7 @@
             </a>
         </nav>
         <div class="justify-end flex-1 mt-16 md:mt-0 w-full md:w-auto hidden md:flex">
-            <a href="#" class="bg-secondary text-center text-white py-3 px-7 shadow-md rounded-sm underline block md:inline-block">
-                ¡Obtén una cotización!
-            </a>
+            <x-request-button />
         </div>
     </div>
 </header>

@@ -1,9 +1,15 @@
 <x-guest-layout>
 	<x-website-slogan />
 
-	<section class="pt-10 pb-0 md:pt-20 md:pb-20 wow animate__fadeInUp">
+	<section class="pt-0 pb-0 md:pt-20 md:pb-20 wow animate__fadeInUp">
 		<div class="w-11/12 mx-auto">
+
+			<div class="justify-end flex-1 mt-8 w-full md:w-auto block md:hidden mb-10">
+			    <x-request-button />
+			</div>
+
 			<x-overlay-image src="{{ asset('/img/crystal-kwok-XUEdfpPIhXg-unsplash.jpg') }}" />
+
 		</div>
 	</section>
 
