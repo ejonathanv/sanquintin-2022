@@ -19,7 +19,7 @@
             </nav>
         </div>
         <div class="w-full md:w-5/12 text-left md:text-right">
-            <p>{{ date('Y') }}, {{ env('app_name') }}</p>
+            <p>{{ date('Y') }}, {{ env('APP_NAME') }}</p>
         </div>
     </div>
 </footer>
