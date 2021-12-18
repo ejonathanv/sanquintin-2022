@@ -16,9 +16,9 @@
 	<section class="pt-10 pb-7 md:pt-20 md:pb-20">
 		<div class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-center space-x-0 md:space-x-32">
 			<div class="w-full md:w-1/2">
-				<p class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
+				<h1 class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
 					Acerca de nosotros
-				</p>
+				</h1>
 				<p class="text-base md:text-2xl text-white mb-5">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ea explicabo ratione repellendus nostrum veritatis officia vero maiores dolorum, tempora aspernatur autem ipsum labore sunt sit consequatur obcaecati necessitatibus exercitationem.
 				</p>
@@ -39,9 +39,9 @@
 				<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_PICKUP.JPG') }}" />	
 			</div>
 			<div class="w-full md:w-1/2">
-				<p class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
+				<h1 class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
 					¡Trabajemos juntos!
-				</p>
+				</h1>
 				<p class="text-base md:text-2xl text-white md:mb-5">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ea explicabo ratione repellendus nostrum veritatis officia vero maiores dolorum, tempora aspernatur autem ipsum labore sunt sit consequatur obcaecati necessitatibus exercitationem.
 				</p>
