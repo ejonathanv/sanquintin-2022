@@ -60,6 +60,7 @@ class WebsiteController extends Controller
     }
     public function sendMailToUs($request)
     {
+        info(env('MAIL_INFO_ACCOUNT'));
         Mail::to(env('MAIL_INFO_ACCOUNT'))->send(new NewMessage($request));
     }
     public function sendMailToClient($request)
