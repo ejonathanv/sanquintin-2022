@@ -29,8 +29,8 @@ class WebsiteController extends Controller
     {
         $validate = Validator::make($request->all(), $this->validationRules(), $this->validationMessages());
         try {
-            $this->sendMailToClient($request);
             $this->sendMailToUs($request);
+            $this->sendMailToClient($request);
             return redirect()->back()->with('success', "¡Gracias por escribirnos! Tu mensaje ha sido enviado exitosamente.");
         } catch (Exception $e) {
             return redirect()->back()->withErrors(['Algo salió mal, por favor intenta más tarde.']);
