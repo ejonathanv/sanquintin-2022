@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         <!-- Scripts -->
+        <script src="https://kit.fontawesome.com/133291f590.js" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
@@ -25,4 +26,7 @@
             <x-website-footer />
         </div>
     </body>
+    <script>
+        {{ $scripts }}
+    </script>
 </html>

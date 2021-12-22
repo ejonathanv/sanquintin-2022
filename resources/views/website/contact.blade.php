@@ -21,8 +21,12 @@
 									class="form-input focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary" 
 									name="first_name" 
 									required 
-									autofocus 
+									autofocus
+									value="{{ old('first_name') }}"
 									placeholder="Tu nombre">
+								@error('first_name')
+									<p class="text-sm text-secondary">{{$message}}</p>
+								@enderror
 							</div>
 
 							<div class="w-full md:w-1/2 mt-7 md:mt-0">
@@ -30,8 +34,12 @@
 								<input type="text" 
 									class="form-input focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary" 
 									name="last_name" 
-									required 
+									required
+									value="{{ old('last_name') }}"
 									placeholder="Tu apellido">
+								@error('last_name')
+									<p class="text-sm text-secondary">{{$message}}</p>
+								@enderror
 							</div>
 						</div>
 
@@ -40,8 +48,12 @@
 							<input type="email" 
 								class="form-input focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary" 
 								name="email" 
-								required 
+								required
+								value="{{ old('email') }}"
 								placeholder="usuario@empresa.com">
+							@error('email')
+								<p class="text-sm text-secondary">{{$message}}</p>
+							@enderror
 						</div>
 
 						<div class="mb-7">
@@ -50,10 +62,31 @@
 								rows="3" 
 								class="form-input focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary" 
 								placeholder="Escribe aquí tu mensaje..." 
-								required></textarea>
+								required>{{ old('message') }}</textarea>
+							@error('message')
+								<p class="text-sm text-secondary">{{$message}}</p>
+							@enderror
 						</div>
 
-						<button class="py-3 px-7 bg-secondary text-white text-lg shadow-md">Enviar</button>
+						<div class="mb-7">
+							<div class="flex flex-col md:flex-row items-start md:items-end space-y-2 md:space-y-0 space-x-0 md:space-x-2 mb-2">
+								<div class="flex items-center space-x-2">
+									<span id="captcha-image">{!! captcha_img() !!}</span>
+									<button type="button" style="height: 52px;" class="btn py-3 ring-0 px-7 border-2 border-secondary text-secondary" class="refresh-captcha" id="refresh-captcha" onclick="refreshCaptcha()">
+									    <i class="fa fa-sync-alt fa-sm"></i>
+									</button>
+								</div>
+								<input id="captcha" type="text" class="flex-1 form-input focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary" style="height: 52px" placeholder="Ingresa los 4 caractéres de la imagen" name="captcha" required>
+							</div>
+							@error('captcha')
+								<p class="text-sm text-secondary">{{$message}}</p>
+							@enderror
+						</div>
+
+						<button class="py-3 px-7 bg-secondary text-white text-lg shadow-md">
+							<i class="fa fa-paper-plane fa-sm mr-2"></i>
+							Enviar
+						</button>
 
 					</form>
 				@endif
@@ -61,4 +94,15 @@
 		</div>
 	</section>
 
+	<x-slot name="scripts">
+	    function refreshCaptcha(){
+	    	fetch('{{ route('refresh-captcha') }}').then(function (response) {
+	    		return response.json();
+	    	}).then(function (data) {
+	    		document.getElementById("captcha-image").innerHTML = data.captcha;
+	    	}).catch(function (err) {
+	    		console.warn('Algo salió mal.', err);
+	    	});
+	    }
+	</x-slot>
 </x-guest-layout>

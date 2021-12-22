@@ -27,7 +27,11 @@ class WebsiteController extends Controller
     }
     public function sendMessage(Request $request)
     {
-        $validate = Validator::make($request->all(), $this->validationRules(), $this->validationMessages());
+        $validate = Validator::make($request->all(), 
+            $this->validationRules(), 
+            $this->validationMessages()
+        )->validate();
+
         try {
             $this->sendMailToUs($request);
             $this->sendMailToClient($request);
@@ -43,6 +47,7 @@ class WebsiteController extends Controller
             'last_name'  => 'required|string',
             'email'      => 'required|email',
             'message'    => 'required|string',
+            'captcha'    => 'required|captcha',
         ];
     }
     public function validationMessages()
@@ -56,7 +61,13 @@ class WebsiteController extends Controller
             'email.email'         => 'El correo electrónico proporcionado no es válido',
             'message.required'    => 'Por favor escribe tu mensaje',
             'message.string'      => 'Por favor ingresa tu mensaje',
+            'captcha.required'    => 'Por favor rellena este campo',
+            'captcha.captcha'     => 'Los caractéres ingresados no son correctos vuelve a intentarlo.',
         ];
+    }
+    public function refreshCaptcha()
+    {
+        return response()->json(['captcha'=> captcha_img()]);
     }
     public function sendMailToUs($request)
     {
