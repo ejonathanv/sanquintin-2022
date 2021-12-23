@@ -1,5 +1,5 @@
 <header class="py-7 md:py-20">
-    <div class="w-11/12 mx-auto flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between">
+    <div class="w-10/12 mx-auto flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between">
         <div class="flex-1">
             <a href="{{ route('home') }}">
                 <img src="{{ asset('img/LOGO_SAN_QUINTIN_FONDO_AZUL.png') }}" class="h-10 md:h-12 w-auto" alt="">

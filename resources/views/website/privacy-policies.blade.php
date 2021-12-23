@@ -1,6 +1,6 @@
 <x-guest-layout>
 	<section class="pt-7 md:pt-20 pb-10 md:pb-32">
-		<div class="w-11/12 md:w-6/12 mx-auto">
+		<div class="w-10/12 md:w-6/12 mx-auto">
 			<h3 class="text-4xl md:text-6xl text-secondary mb-10 md:mb-20 wow animate__fadeInUp">Política de privacidad</h3>
 			<p class="text-white mb-10 text-base md:text-xl">
 				El presente Política de Privacidad establece los términos en que San Quintín Mantenimiento Industrial usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.

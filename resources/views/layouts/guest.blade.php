@@ -22,7 +22,9 @@
     <body>
         <div class="font-sans text-gray-900 antialiased bg-primary">
             <x-website-header />
-            <x-social-media-icons />
+            <div class="hidden md:block">
+                <x-social-media-icons />
+            </div>
             {{ $slot }}
             <x-website-footer />
         </div>

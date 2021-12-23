@@ -19,6 +19,15 @@
                 </a>
             </nav>
         </div>
+        <div class="flex md:hidden items-center space-x-4">
+            <span>Síguenos en: </span>
+            <a href="https://www.facebook.com/sanquintinindustrial" target="_blank" class="text-secondary hover:text-white">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/sanquintinindustrial" target="_blank" class="text-secondary hover:text-white">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
         <div class="w-full md:w-5/12 text-left md:text-right">
             <p>{{ date('Y') }} - {{ env('APP_NAME') }}</p>
         </div>

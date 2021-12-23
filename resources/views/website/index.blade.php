@@ -1,20 +1,15 @@
 <x-guest-layout>
 	<x-website-slogan />
-
 	<section class="pt-0 pb-0 md:pt-20 md:pb-20 wow animate__fadeInUp">
 		<div class="w-10/12 mx-auto">
-
 			<div class="justify-end flex-1 mt-8 w-full md:w-auto block md:hidden mb-10">
 			    <x-request-button />
 			</div>
-
 			<x-overlay-image src="{{ asset('/img/crystal-kwok-XUEdfpPIhXg-unsplash.jpg') }}" />
-
 		</div>
 	</section>
-
 	<section class="pt-10 pb-7 md:pt-20 md:pb-20">
-		<div class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-center space-x-0 md:space-x-32">
+		<div class="w-10/12 md:w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-center space-x-0 md:space-x-32">
 			<div class="w-full md:w-1/2">
 				<h1 class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
 					Acerca de nosotros
@@ -32,9 +27,8 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="pt-0 pb-10 md:pt-20 md:pb-20">
-		<div class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-center space-x-0 md:space-x-32">
+		<div class="w-10/12 md:w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-center space-x-0 md:space-x-32">
 			<div class="w-full md:w-1/2 hidden md:block">
 				<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_PICKUP.JPG') }}" />	
 			</div>
@@ -55,5 +49,4 @@
 			</div>
 		</div>
 	</section>
-
 </x-guest-layout>
