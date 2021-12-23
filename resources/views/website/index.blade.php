@@ -15,7 +15,7 @@
 					Acerca de nosotros
 				</h1>
 				<p class="text-base md:text-2xl text-white mb-5">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ea explicabo ratione repellendus nostrum veritatis officia vero maiores dolorum, tempora aspernatur autem ipsum labore sunt sit consequatur obcaecati necessitatibus exercitationem.
+					San Quintín, empresa ubicada en Tijuana Baja California enfocada en dar soluciones de control de plagas, desinfección de áreas, recubrimientos y limpieza especializada.
 				</p>
 				<a href="{{ route('about') }}" 
 					class="text-secondary underline">
@@ -34,10 +34,10 @@
 			</div>
 			<div class="w-full md:w-1/2">
 				<h1 class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
-					¡Trabajemos juntos!
+					¡Recibe una cotización hoy mismo!
 				</h1>
 				<p class="text-base md:text-2xl text-white md:mb-5">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ea explicabo ratione repellendus nostrum veritatis officia vero maiores dolorum, tempora aspernatur autem ipsum labore sunt sit consequatur obcaecati necessitatibus exercitationem.
+					
 				</p>
 				<a href="{{ route('services') }}" 
 					class="text-secondary underline mt-5 inline-block">
