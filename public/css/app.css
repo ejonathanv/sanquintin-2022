@@ -36376,6 +36376,28 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.75rem;
 }
 
+.socialMediaIcons{
+  position: fixed;
+  z-index: 50;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  top: 70%;
+  left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.socialMediaIcons > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.socialMediaIcons{
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -194575,4 +194597,3 @@ h1,h2,h3,h4,h5,h6{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-

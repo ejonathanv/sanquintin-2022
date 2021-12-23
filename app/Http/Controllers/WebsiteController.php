@@ -78,4 +78,7 @@ class WebsiteController extends Controller
     {
         Mail::to($request->email)->send(new NewMessageResponseToClient($request));
     }
+    public function privacyPolicies(){
+        return view('website.privacy-policies');
+    }
 }

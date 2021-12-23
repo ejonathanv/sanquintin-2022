@@ -22,11 +22,12 @@
     <body>
         <div class="font-sans text-gray-900 antialiased bg-primary">
             <x-website-header />
+            <x-social-media-icons />
             {{ $slot }}
             <x-website-footer />
         </div>
     </body>
     <script>
-        {{ $scripts }}
+        @isset($scripts){{ $scripts }}@endisset
     </script>
 </html>
