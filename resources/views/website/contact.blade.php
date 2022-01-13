@@ -5,7 +5,7 @@
 			<div class="w-full md:w-1/3">
 				<h3 class="text-3xl text-white mb-7 wow animate__fadeInUp">Tijuana B.C.</h3>
 				<p class="text-white text-base md:text-lg">Calle Jimenez 7871 Independencia.</p>
-				<p class="text-white text-base md:text-lg mb-7">Comunícate con nosotros al: <br> <span class="text-secondary">(664) 386-4368</span></p>
+				<p class="text-white text-base md:text-lg mb-7">Comunícate con nosotros al: <br> <span class="text-secondary">(664) 118-8436</span></p>
 
 				<a href="mailto:info@sanquintinmx.com" class="text-white underline text-2xl">info@sanquintinmx.com</a>
 			</div>

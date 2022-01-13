@@ -5,7 +5,7 @@
         </h1>
         <p class="text-left md:text-center text-3xl md:text-2xl text-white">
             <span class="hidden md:inline-block">Comunícate con nosotros al</span> 
-            <span class="text-secondary">(664) 386 4368</span>
+            <span class="text-secondary">(664) 118-8436</span>
         </p>
     </div>
 </section>
