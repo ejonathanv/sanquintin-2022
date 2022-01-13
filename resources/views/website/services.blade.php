@@ -1,7 +1,7 @@
 <x-guest-layout>
 	<section class="pt-7 md:pt-20 pb-10 md:pb-20">
 		<div class="w-10/12 md:w-8/12 mx-auto">
-			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0">
+			<div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-24 space-y-10 md:space-y-0">
 				<div class="w-full md:w-1/2">
 					<h3 class="text-4xl mb-10 text-secondary">Control de plagas</h3>
 					<p class="text-white text-lg mb-5">
@@ -13,10 +13,10 @@
 					<a href="#" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA_DE_ESPALDA.JPG') }}" />
+					<x-overlay-image src="{{ asset('/img/roach-post.jpg') }}" />
 				</div>
 			</div>
-			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
+			<div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
 				<div class="w-full md:w-1/2">
 					<h3 class="text-4xl mb-10 text-secondary">Recubrimientos especializados</h3>
 					<p class="text-white text-lg mb-5">
@@ -28,7 +28,7 @@
 					<a href="#" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA_DE_ESPALDA.JPG') }}" />
+					<x-overlay-image src="{{ asset('/img/polished-concrete.jpg') }}" />
 				</div>
 			</div>
 			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
@@ -43,7 +43,7 @@
 					<a href="#" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA_DE_ESPALDA.JPG') }}" />
+					<x-overlay-image src="{{ asset('/img/Harrisburg-Cleaning-Pros-sanitation-services.png') }}" />
 				</div>
 			</div>
 			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
@@ -58,7 +58,7 @@
 					<a href="#" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA_DE_ESPALDA.JPG') }}" />
+					<x-overlay-image src="{{ asset('/img/137959923-photo-of-janitor-cleaning-carpet-with-vacuum-cleaner.jpg') }}" />
 				</div>
 			</div>
 		</div>
