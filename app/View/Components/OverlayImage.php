@@ -9,15 +9,17 @@ class OverlayImage extends Component
 
 
     public $src;
+    public $alt;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($src)
+    public function __construct($src, $alt = null)
     {
         $this->src = $src;
+        $this->alt = $alt;
     }
 
     /**

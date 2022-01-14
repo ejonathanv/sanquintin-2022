@@ -2,7 +2,7 @@
     <div class="w-10/12 mx-auto flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between">
         <div class="flex-1">
             <a href="{{ route('home') }}">
-                <img src="{{ asset('img/LOGO_SAN_QUINTIN_FONDO_AZUL.png') }}" class="h-10 md:h-12 w-auto" alt="">
+                <img src="{{ asset('img/LOGO_SAN_QUINTIN_FONDO_AZUL.png') }}" class="h-10 md:h-12 w-auto" alt="San Quintín | Mantenimiento Industrial">
             </a>
         </div>
         <nav class="flex-1 w-full flex items-center justify-between md:justify-center space-x-0 md:space-x-10 text-white text-base lg:text-lg mt-7 md:mt-0">

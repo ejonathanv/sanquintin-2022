@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout pagetitle="Contáctanos">
 
 	<section class="pt-7 md:pt-20 pb-10 md:pb-32">
 		<div class="w-10/12 md:w-9/12 mx-auto flex flex-col md:flex-row items-start space-x-0 md:space-x-32 space-y-10 md:space-y-0">

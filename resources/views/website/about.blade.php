@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout pagetitle="Nosotros">
 	<section class="pt-7 md:pt-20 pb-10 md:pb-32">
 		<div class="w-10/12 md:w-6/12 mx-auto">
 			<h3 class="text-4xl md:text-6xl text-secondary mb-10 md:mb-20 wow animate__fadeInUp">Acerca de nosotros</h3>
@@ -15,7 +15,7 @@
 
 	<section class="pb-12 md:pb-32 wow animate__fadeInUp">
 		<div class="w-10/12 mx-auto">
-			<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA.JPG') }}" />
+			<x-overlay-image src="{{ asset('/img/SAN_QUINTIN_VIENDO_FABRICA.JPG') }}" alt="San Quintín trabajadores observando una fabrica" />
 		</div>
 	</section>
 </x-guest-layout>

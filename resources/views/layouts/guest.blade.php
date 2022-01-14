@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <meta name="description" content="San Quintín, empresa ubicada en Tijuana Baja California enfocada en dar soluciones de control de plagas, desinfección de áreas, recubrimientos y limpieza especializada.">
+        <meta name="keywords" content="Mantenimiento Industrial, Mantenimiento, Industrial, Fumigación, Control de plagas, Impermeabilización, Recubrimientos, Techos, Pisos, Epoxicos, Pisos Epoxicos, Limpieza, Desinfección, Sanitización, Saneamiento, Tijuana, Baja California, Servicios de mantenimiento, Virus, Cucarachas, Roedores, Bacterias, Microorganismos, San Quintín, San, Quintín">
+        <meta name="author" content="San Quintín | Mantenimiento Industrial" />
+        <title>{{ $pagetitle }}</title>
 
         <link rel="icon" href="{{ asset('img/favicon.png') }}">
 

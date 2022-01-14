@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout pagetitle="Políticas De Privacidad">
 	<section class="pt-7 md:pt-20 pb-10 md:pb-32">
 		<div class="w-10/12 md:w-6/12 mx-auto">
 			<h3 class="text-4xl md:text-6xl text-secondary mb-10 md:mb-20 wow animate__fadeInUp">Política de privacidad</h3>

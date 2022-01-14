@@ -5,7 +5,7 @@
 			<div class="justify-end flex-1 mt-8 w-full md:w-auto block md:hidden mb-10">
 			    <x-request-button />
 			</div>
-			<x-overlay-image src="{{ asset('/img/crystal-kwok-XUEdfpPIhXg-unsplash.jpg') }}" />
+			<x-overlay-image src="{{ asset('/img/crystal-kwok-XUEdfpPIhXg-unsplash.jpg') }}" alt="San Quintín | Mantenimiento Industrial" />
 		</div>
 	</section>
 	<section class="pt-10 pb-7 md:pt-20 md:pb-20">

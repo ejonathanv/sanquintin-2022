@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout pagetitle="Nuestros Servicios">
 	<section class="pt-7 md:pt-20 pb-10 md:pb-20">
 		<div class="w-10/12 md:w-8/12 mx-auto">
 			<div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-24 space-y-10 md:space-y-0">
@@ -10,10 +10,10 @@
 					<p class="text-white text-lg mb-5">
 						Mediante las técnicas adecuadas minimizamos el riesgo de infestación, brindándote la  tranquilidad necesaria para continuar tus procesos de producción.
 					</p>
-					<a href="#" class="text-secondary underline">Solicitar más información</a>
+					<a href="{{ route('contact') }}" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/roach-post.jpg') }}" />
+					<x-overlay-image src="{{ asset('/img/roach-post.jpg') }}" alt="Control de Plagas | San Quintín, Mantenimiento Industrial" />
 				</div>
 			</div>
 			<div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
@@ -25,10 +25,10 @@
 					<p class="text-white text-lg mb-5">
 						Pisos epóxicos, Impermeabilizaciones, Autonivelantes, Poliuretanos etc.
 					</p>
-					<a href="#" class="text-secondary underline">Solicitar más información</a>
+					<a href="{{ route('contact') }}" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/polished-concrete.jpg') }}" />
+					<x-overlay-image src="{{ asset('/img/polished-concrete.jpg') }}" alt="Recubrimientos Especializados | San Quintín, Mantenimiento Industrial" />
 				</div>
 			</div>
 			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
@@ -40,10 +40,10 @@
 					<p class="text-white text-lg mb-5">
 						Salmonella, Influenza A H1N1, Hepatitis B, Hepatitis C, Coronavirus Humano etc.
 					</p>
-					<a href="#" class="text-secondary underline">Solicitar más información</a>
+					<a href="{{ route('contact') }}" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/Harrisburg-Cleaning-Pros-sanitation-services.png') }}" />
+					<x-overlay-image src="{{ asset('/img/Harrisburg-Cleaning-Pros-sanitation-services.png') }}" alt="Desinfección | San Quintín, Mantenimiento Industrial" />
 				</div>
 			</div>
 			<div class="flex flex-col md:flex-row items-start space-x-0 md:space-x-24 space-y-10 md:space-y-0 mt-16 md:mt-32">
@@ -55,10 +55,10 @@
 					<p class="text-white text-lg mb-5">
 						Limpieza en áreas de producción, áreas específicas de alto riesgo, fachadas y estructuras, techos, pisos y estacionamientos, derrames químicos etc.
 					</p>
-					<a href="#" class="text-secondary underline">Solicitar más información</a>
+					<a href="{{ route('contact') }}" class="text-secondary underline">Solicitar más información</a>
 				</div>
 				<div class="w-full md:w-1/2">
-					<x-overlay-image src="{{ asset('/img/137959923-photo-of-janitor-cleaning-carpet-with-vacuum-cleaner.jpg') }}" />
+					<x-overlay-image src="{{ asset('/img/137959923-photo-of-janitor-cleaning-carpet-with-vacuum-cleaner.jpg') }}" alt="Limpieza Especializada | San Quintín, Mantenimiento Industrial" />
 				</div>
 			</div>
 		</div>

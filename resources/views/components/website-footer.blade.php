@@ -2,7 +2,7 @@
     <div class="w-10/12 mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 items-start">
         <div class="w-full md:w-3/12">
             <a href="#">
-                <img src="{{ asset('img/LOGO_SAN_QUINTIN_FONDO_AZUL.png') }}" class="h-12 w-auto" alt="">
+                <img src="{{ asset('img/LOGO_SAN_QUINTIN_FONDO_AZUL.png') }}" class="h-12 w-auto" alt="San Quintín | Mantenimiento Industrial">
             </a>
         </div>
         <div class="w-full md:w-4/12 flex flex-col md:flex-row items-cecnter space-x-0 md:space-x-10">
