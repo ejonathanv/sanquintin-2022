@@ -15,7 +15,7 @@
 					Acerca de nosotros
 				</h1>
 				<p class="text-base md:text-2xl text-white mb-5">
-					San Quintín, empresa ubicada en Tijuana Baja California enfocada en dar soluciones de control de plagas, desinfección de áreas, recubrimientos y limpieza especializada.
+					Cuando se trata de mantenimiento industrial no hay nada que se nos resista. Contamos con una amplia experiencia en el sector y nos hemos especializado en el mantenimiento de plantas industriales, centros de distribución, almacenes, oficinas, restaurantes, hoteles, escuelas, hospitales, etc.
 				</p>
 				<a href="{{ route('about') }}" 
 					class="text-secondary underline">
@@ -36,12 +36,12 @@
 				<h1 class="font-bold text-2xl md:text-5xl text-secondary mb-4 md:mb-10">
 					¡Recibe una cotización hoy mismo!
 				</h1>
-				<p class="text-base md:text-2xl text-white md:mb-5">
-					
+				<p class="text-base md:text-2xl text-white mb-5">
+					¿Necesitas un servicio de mantenimiento industrial? ¡No esperes más! Contáctanos y recibe una cotización personalizada para tu empresa.
 				</p>
-				<a href="{{ route('services') }}" 
-					class="text-secondary underline mt-5 inline-block">
-					Ver nuestros servicios
+				<a href="{{ route('contact') }}" 
+					class="bg-secondary text-center text-white py-3 px-7 shadow-md rounded-sm underline block md:inline-block">
+					Contactar
 				</a>
 			</div>
 			<div class="w-full md:w-1/2 block md:hidden">
